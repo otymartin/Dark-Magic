@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Tabman
 
-class ViewController: UIViewController {
+class ViewController: TabmanViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
