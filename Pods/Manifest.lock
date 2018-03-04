@@ -1,3 +1,23 @@
-PODFILE CHECKSUM: b2cc93ee1ca99d02c77c27e3a2d64f7fa7971438
+PODS:
+  - AutoInsetter (1.2.1)
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - Pageboy (2.3.4)
+  - Tabman (1.5.2):
+    - AutoInsetter (~> 1.2.0)
+    - Pageboy (~> 2.3.0)
+
+DEPENDENCIES:
+  - ChameleonFramework
+  - Tabman
+
+SPEC CHECKSUMS:
+  AutoInsetter: d90171b54341b801edd4ab68eee9eec54fdc92b7
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Pageboy: 502560f49b0357eaf8a3b6075e4cab29505079a3
+  Tabman: 2018894ff75a6e1693729dbb40ab125393f9c5c1
+
+PODFILE CHECKSUM: a2de1588f1207eb869e6f1acf4d42b76be632288
 
 COCOAPODS: 1.4.0

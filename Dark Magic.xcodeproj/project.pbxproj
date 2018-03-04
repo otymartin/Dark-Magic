@@ -14,6 +14,9 @@
 		A1803730204C45CC00A36712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A180372E204C45CC00A36712 /* LaunchScreen.storyboard */; };
 		A180373B204C45CD00A36712 /* Dark_MagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180373A204C45CD00A36712 /* Dark_MagicTests.swift */; };
 		A1803746204C45CD00A36712 /* Dark_MagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1803745204C45CD00A36712 /* Dark_MagicUITests.swift */; };
+		A3A9D215BE78E30692E3D9B3 /* Pods_Dark_MagicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0236D528134B5D86361E2453 /* Pods_Dark_MagicTests.framework */; };
+		A789DCDF1FB9B6347654B611 /* Pods_Dark_MagicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC4E0F18949042E5C783460 /* Pods_Dark_MagicUITests.framework */; };
+		C8D5F9385DB35AC168CA9B5F /* Pods_Dark_Magic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86DCD25001F262754485C0C /* Pods_Dark_Magic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0236D528134B5D86361E2453 /* Pods_Dark_MagicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dark_MagicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B2E2B4574998ECA8F49898 /* Pods-Dark MagicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dark MagicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dark MagicUITests/Pods-Dark MagicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		08B0ECEF236C7AF5D1C3AFC7 /* Pods-Dark MagicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dark MagicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dark MagicTests/Pods-Dark MagicTests.release.xcconfig"; sourceTree = "<group>"; };
+		26287EF968E0EDC40E986C56 /* Pods-Dark MagicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dark MagicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dark MagicUITests/Pods-Dark MagicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FC74ED9051C6F0BFBDA44EC /* Pods-Dark Magic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dark Magic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dark Magic/Pods-Dark Magic.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC4E0F18949042E5C783460 /* Pods_Dark_MagicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dark_MagicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1803722204C45CC00A36712 /* Dark Magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1803725204C45CC00A36712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1803727204C45CC00A36712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		A1803741204C45CD00A36712 /* Dark MagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dark MagicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1803745204C45CD00A36712 /* Dark_MagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dark_MagicUITests.swift; sourceTree = "<group>"; };
 		A1803747204C45CD00A36712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86DCD25001F262754485C0C /* Pods_Dark_Magic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dark_Magic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBCC8F7A60ACCF59BAEA1945 /* Pods-Dark Magic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dark Magic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dark Magic/Pods-Dark Magic.release.xcconfig"; sourceTree = "<group>"; };
+		EE32306B21B3B1FBDC0D3E43 /* Pods-Dark MagicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dark MagicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dark MagicTests/Pods-Dark MagicTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D5F9385DB35AC168CA9B5F /* Pods_Dark_Magic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A9D215BE78E30692E3D9B3 /* Pods_Dark_MagicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A789DCDF1FB9B6347654B611 /* Pods_Dark_MagicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BED6769A918F545D576A1F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B86DCD25001F262754485C0C /* Pods_Dark_Magic.framework */,
+				0236D528134B5D86361E2453 /* Pods_Dark_MagicTests.framework */,
+				9AC4E0F18949042E5C783460 /* Pods_Dark_MagicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D9BEFB0E512FB23A5A966E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FC74ED9051C6F0BFBDA44EC /* Pods-Dark Magic.debug.xcconfig */,
+				DBCC8F7A60ACCF59BAEA1945 /* Pods-Dark Magic.release.xcconfig */,
+				EE32306B21B3B1FBDC0D3E43 /* Pods-Dark MagicTests.debug.xcconfig */,
+				08B0ECEF236C7AF5D1C3AFC7 /* Pods-Dark MagicTests.release.xcconfig */,
+				04B2E2B4574998ECA8F49898 /* Pods-Dark MagicUITests.debug.xcconfig */,
+				26287EF968E0EDC40E986C56 /* Pods-Dark MagicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A1803719204C45CC00A36712 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				A1803739204C45CD00A36712 /* Dark MagicTests */,
 				A1803744204C45CD00A36712 /* Dark MagicUITests */,
 				A1803723204C45CC00A36712 /* Products */,
+				63D9BEFB0E512FB23A5A966E /* Pods */,
+				1BED6769A918F545D576A1F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A180374A204C45CD00A36712 /* Build configuration list for PBXNativeTarget "Dark Magic" */;
 			buildPhases = (
+				3B4C15D9515ED939EDAC4A65 /* [CP] Check Pods Manifest.lock */,
 				A180371E204C45CC00A36712 /* Sources */,
 				A180371F204C45CC00A36712 /* Frameworks */,
 				A1803720204C45CC00A36712 /* Resources */,
+				2A61F26FC003A5FA89352FCA /* [CP] Embed Pods Frameworks */,
+				7CDCDB0BA8372A4B582EFD1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A180374D204C45CD00A36712 /* Build configuration list for PBXNativeTarget "Dark MagicTests" */;
 			buildPhases = (
+				48E1F3017C581F96976DBBFA /* [CP] Check Pods Manifest.lock */,
 				A1803732204C45CD00A36712 /* Sources */,
 				A1803733204C45CD00A36712 /* Frameworks */,
 				A1803734204C45CD00A36712 /* Resources */,
+				9484D0779042EB63C836752C /* [CP] Embed Pods Frameworks */,
+				74A3F7198B0CF481A3869985 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1803750204C45CD00A36712 /* Build configuration list for PBXNativeTarget "Dark MagicUITests" */;
 			buildPhases = (
+				B557339AE70D75D46CA9AAFC /* [CP] Check Pods Manifest.lock */,
 				A180373D204C45CD00A36712 /* Sources */,
 				A180373E204C45CD00A36712 /* Frameworks */,
 				A180373F204C45CD00A36712 /* Resources */,
+				FACB96602B67AAF4642D88D4 /* [CP] Embed Pods Frameworks */,
+				25D9081E8BC0D905DE41F18F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,162 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25D9081E8BC0D905DE41F18F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dark MagicUITests/Pods-Dark MagicUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A61F26FC003A5FA89352FCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Dark Magic/Pods-Dark Magic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AutoInsetter/AutoInsetter.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Pageboy/Pageboy.framework",
+				"${BUILT_PRODUCTS_DIR}/Tabman/Tabman.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoInsetter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pageboy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tabman.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dark Magic/Pods-Dark Magic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B4C15D9515ED939EDAC4A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dark Magic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48E1F3017C581F96976DBBFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dark MagicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A3F7198B0CF481A3869985 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dark MagicTests/Pods-Dark MagicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CDCDB0BA8372A4B582EFD1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dark Magic/Pods-Dark Magic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9484D0779042EB63C836752C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dark MagicTests/Pods-Dark MagicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B557339AE70D75D46CA9AAFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dark MagicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FACB96602B67AAF4642D88D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dark MagicUITests/Pods-Dark MagicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A180371E204C45CC00A36712 /* Sources */ = {
@@ -424,6 +629,7 @@
 		};
 		A180374B204C45CD00A36712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC74ED9051C6F0BFBDA44EC /* Pods-Dark Magic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +645,7 @@
 		};
 		A180374C204C45CD00A36712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBCC8F7A60ACCF59BAEA1945 /* Pods-Dark Magic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +661,7 @@
 		};
 		A180374E204C45CD00A36712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE32306B21B3B1FBDC0D3E43 /* Pods-Dark MagicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +679,7 @@
 		};
 		A180374F204C45CD00A36712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B0ECEF236C7AF5D1C3AFC7 /* Pods-Dark MagicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +697,7 @@
 		};
 		A1803751204C45CD00A36712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B2E2B4574998ECA8F49898 /* Pods-Dark MagicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +714,7 @@
 		};
 		A1803752204C45CD00A36712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26287EF968E0EDC40E986C56 /* Pods-Dark MagicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
