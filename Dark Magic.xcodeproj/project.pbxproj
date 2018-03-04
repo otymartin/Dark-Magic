@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A1803726204C45CC00A36712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1803725204C45CC00A36712 /* AppDelegate.swift */; };
-		A1803728204C45CC00A36712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1803727204C45CC00A36712 /* ViewController.swift */; };
+		A1803728204C45CC00A36712 /* DarkMagicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1803727204C45CC00A36712 /* DarkMagicViewController.swift */; };
 		A180372B204C45CC00A36712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1803729204C45CC00A36712 /* Main.storyboard */; };
 		A180372D204C45CC00A36712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A180372C204C45CC00A36712 /* Assets.xcassets */; };
 		A1803730204C45CC00A36712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A180372E204C45CC00A36712 /* LaunchScreen.storyboard */; };
@@ -45,7 +45,7 @@
 		9AC4E0F18949042E5C783460 /* Pods_Dark_MagicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dark_MagicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1803722204C45CC00A36712 /* Dark Magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1803725204C45CC00A36712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1803727204C45CC00A36712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1803727204C45CC00A36712 /* DarkMagicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkMagicViewController.swift; sourceTree = "<group>"; };
 		A180372A204C45CC00A36712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A180372C204C45CC00A36712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A180372F204C45CC00A36712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				A1803725204C45CC00A36712 /* AppDelegate.swift */,
-				A1803727204C45CC00A36712 /* ViewController.swift */,
+				A1803727204C45CC00A36712 /* DarkMagicViewController.swift */,
 				A1803729204C45CC00A36712 /* Main.storyboard */,
 				A180372C204C45CC00A36712 /* Assets.xcassets */,
 				A180372E204C45CC00A36712 /* LaunchScreen.storyboard */,
@@ -466,7 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1803728204C45CC00A36712 /* ViewController.swift in Sources */,
+				A1803728204C45CC00A36712 /* DarkMagicViewController.swift in Sources */,
 				A1803726204C45CC00A36712 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
