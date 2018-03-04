@@ -1,0 +1,6 @@
+framework module Pods_Dark_MagicUITests {
+  umbrella header "Pods-Dark MagicUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
