@@ -16,7 +16,7 @@ class DarkMagicViewController: TabmanViewController {
     
     var pageLabel = UILabel()
     
-    var currentPage: Int = 0 {
+    var currentPage: Int = 1 {
         didSet {
             self.pageLabel.text = String(self.currentPage)
         }
@@ -46,7 +46,7 @@ class DarkMagicViewController: TabmanViewController {
     
     override func pageboyViewController(_ pageboyViewController: PageboyViewController, didScrollToPageAt index: Int, direction: PageboyViewController.NavigationDirection, animated: Bool) {
         super.pageboyViewController(pageboyViewController, didScrollToPageAt: index, direction: direction, animated: animated)
-        self.currentPage = index
+        self.currentPage = index + 1
     }
 
 
@@ -55,7 +55,7 @@ class DarkMagicViewController: TabmanViewController {
 extension DarkMagicViewController: PageboyViewControllerDataSource {
     
     func loadViewControllers() {
-        for _ in 0...100 {
+        for _ in 0...99 {
             let viewController = UIViewController()
             viewController.view.backgroundColor = .randomFlat()
             self.viewControllers.append(viewController)
