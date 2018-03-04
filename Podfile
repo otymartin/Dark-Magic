@@ -6,6 +6,7 @@ target 'Dark Magic' do
   use_frameworks!
   inhibit_all_warnings!
   pod 'Tabman'
+  pod 'SnapKit'
   pod 'ChameleonFramework'
   # Pods for Dark Magic
 

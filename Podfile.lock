@@ -4,20 +4,23 @@ PODS:
     - ChameleonFramework/Default (= 2.1.0)
   - ChameleonFramework/Default (2.1.0)
   - Pageboy (2.3.4)
+  - SnapKit (4.0.0)
   - Tabman (1.5.2):
     - AutoInsetter (~> 1.2.0)
     - Pageboy (~> 2.3.0)
 
 DEPENDENCIES:
   - ChameleonFramework
+  - SnapKit
   - Tabman
 
 SPEC CHECKSUMS:
   AutoInsetter: d90171b54341b801edd4ab68eee9eec54fdc92b7
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
   Pageboy: 502560f49b0357eaf8a3b6075e4cab29505079a3
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
   Tabman: 2018894ff75a6e1693729dbb40ab125393f9c5c1
 
-PODFILE CHECKSUM: 90e3b36d757a911a04a02fe563b7fbc9c32c7e4f
+PODFILE CHECKSUM: 912a6f366d4afebbc42d6610863e7024b29b1a63
 
 COCOAPODS: 1.4.0

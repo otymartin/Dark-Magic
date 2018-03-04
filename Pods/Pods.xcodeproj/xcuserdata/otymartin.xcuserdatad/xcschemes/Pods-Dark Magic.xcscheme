@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0920"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18BE4D52E34FCF372BF8456B3FC1C755"
+               BlueprintIdentifier = "6CCF86F89AD40DAB1DE7DB899D4AEBE6"
                BuildableName = "Pods_Dark_Magic.framework"
                BlueprintName = "Pods-Dark Magic"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18BE4D52E34FCF372BF8456B3FC1C755"
+            BlueprintIdentifier = "6CCF86F89AD40DAB1DE7DB899D4AEBE6"
             BuildableName = "Pods_Dark_Magic.framework"
             BlueprintName = "Pods-Dark Magic"
             ReferencedContainer = "container:Pods.xcodeproj">

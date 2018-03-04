@@ -8,19 +8,47 @@
 
 import UIKit
 import Tabman
+import Pageboy
+import ChameleonFramework
 
-class ViewController: TabmanViewController {
+class TabViewController: TabmanViewController {
+    
+    var pageLabel = UILabel()
+    
+    var currentPage: Int = 0 {
+        didSet {
+            self.pageLabel.text = String(self.currentPage)
+        }
+    }
+    
+    var viewControllers: [UIViewController] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.addLabel()
+        self.loadViewControllers()
+        self.delegate = self
+        
+    }
+    
+    func addLabel() {
+        self.pageLabel.font = UIFont.systemFont(ofSize: 20, weight: .heavy)
+        self.pageLabel.textColor = .black
+        self.pageLabel.textAlignment = .center
+        self.view.addSubview(self.pageLabel)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+}
+
+extension TabViewController: PageboyViewControllerDelegate, PageboyViewControllerDataSource {
+    
+    func loadViewControllers() {
+        for _ in 0...100 {
+            let viewController = UIViewController()
+            viewController.view.backgroundColor = .randomFlat()
+        }
     }
-
-
+    
 }
 
