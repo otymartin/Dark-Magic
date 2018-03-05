@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DarkMagicViewController.swift
 //  Dark Magic
 //
 //  Created by Martin Otyeka on 2018-03-04.
