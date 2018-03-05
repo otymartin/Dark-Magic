@@ -34,8 +34,8 @@ class DarkMagicViewController: TabmanViewController {
     }
     
     func addLabel() {
-        self.pageLabel.font = UIFont.systemFont(ofSize: 20, weight: .heavy)
-        self.pageLabel.textColor = .black
+        self.pageLabel.font = UIFont.systemFont(ofSize: 100, weight: .heavy)
+        self.pageLabel.textColor = .white
         self.pageLabel.textAlignment = .center
         self.view.addSubview(self.pageLabel)
         self.pageLabel.snp.makeConstraints { [weak self] (make) in
